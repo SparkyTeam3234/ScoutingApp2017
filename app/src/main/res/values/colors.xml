@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c61313</color>
+    <color name="colorPrimaryDark">#af0f0f</color>
+    <color name="colorAccent">#db0a0a</color>
+    <color name="buttonBack">#9E9E9E</color>
+    <color name="buttonUndo">#E53935</color>
+    <color name="buttonEnd">#212121</color>
+    <color name="textColor">#000000</color>
+    <color name="commentsColor">#1E88E5</color>
+</resources>

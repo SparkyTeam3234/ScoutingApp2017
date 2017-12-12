@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context="org.lowellrobotics.scoutingapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_mode"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="1dp">
+
+        <Button
+            android:id="@+id/auto_high"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/auto_high"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/autoHighCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/autoHighNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/auto_low"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/auto_low"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/autoLowCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/autoLowNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/auto_gear"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/auto_gear"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/autoGearCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/autoGearNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/auto_side"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/auto_gear_side"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/autoSideGear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/autoSideNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/auto_cross"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/auto_cross"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/autoCrossCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/autoCrossNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tele_mode"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="1dp">
+
+        <Button
+            android:id="@+id/tele_high"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/tele_high"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/teleHighCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/teleHighNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/tele_low"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/tele_low"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/teleLowCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/teleLowNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/tele_gear"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/tele_gear"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/teleGearCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/teleGearNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/tele_climb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/tele_climb"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/teleClimbCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/teleClimbNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/def"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/def"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/defRate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/defRateNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:layout_marginTop="3dp">
+
+        <Button
+            android:id="@+id/penalty"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/penalty"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"
+            android:onClick="onPenaltyClick"/>
+
+        <TextView
+            android:id="@+id/penaltyCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/penaltyNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/yellow"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/yellow"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/yellowCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/yellowNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/red"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/red"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:id="@+id/redCount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/redNum"
+            android:gravity="center"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/robot_dead"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/dead"
+            android:background="@color/buttonBack"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="  "
+            android:gravity="center"
+            android:padding="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="4dp">
+
+        <EditText
+            android:id="@+id/team_num"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:hint="@string/team_number"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/match_num"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:hint="@string/match_number"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/comments_button"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"
+            android:text="@string/comments"
+            android:background="@color/commentsColor"/>
+
+        <Button
+            android:id="@+id/undo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/undo"
+            android:background="@color/buttonUndo"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+
+        <Button
+            android:id="@+id/end_match"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="@string/end"
+            android:background="#4CAF50"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:shadowColor="@color/buttonEnd"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/textColor"/>
+    </LinearLayout>
+
+
+</LinearLayout>

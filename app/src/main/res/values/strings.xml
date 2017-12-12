@@ -1,0 +1,53 @@
+<resources>
+    //Button Display Text
+    <string name="app_name">Red Arrow Scouting</string>
+    <string name="team_number">Team Number</string>
+    <string name="match_number">Match Number</string>
+    <string name="auto_high">High Goal</string>
+    <string name="auto_low">Low Goal</string>
+    <string name="auto_gear">Center Gear</string>
+    <string name="auto_cross">Cross</string>
+    <string name="auto_gear_side">Side Gear</string>
+    <string name="tele_high">High Goal</string>
+    <string name="tele_low">Low Goal</string>
+    <string name="tele_gear">Gear</string>
+    <string name="def">Defense Rating (0-5)</string>
+    <string name="penalty">Penalty</string>
+    <string name="yellow">Yellow Card</string>
+    <string name="red">Red Card</string>
+    <string name="dead">Robot Fine</string>
+    <string name="undo">Subtract Last</string>
+    <string name="end">End Match</string>
+    <string name="tele_climb">Climb</string>
+    <string name="comments">Comments</string>
+
+    //divider texts
+    <string name="auto_mode">Autonomous</string>
+    <string name="tele_mode">Teleop</string>
+
+    //original counting values
+    <string name="autoHighNum">0</string>
+    <string name="autoLowNum">0</string>
+    <string name="autoGearNum">0</string>
+    <string name="autoCrossNum">0</string>
+    <string name="teleHighNum">0</string>
+    <string name="teleLowNum">0</string>
+    <string name="teleGearNum">0</string>
+    <string name="defRateNum">0</string>
+    <string name="penaltyNum">0</string>
+    <string name="yellowNum">0</string>
+    <string name="redNum">0</string>
+    <string name="autoSideNum">0</string>
+    <string name="teleClimbNum">0</string>
+
+    //ending the match dialoug box strings
+    <string name="end_match_title">End Match</string>
+    <string name="end_match_confirm">Are you sure you want to end the current match?</string>
+    <string name="confirm">Yes</string>
+    <string name="cancel">Cancel</string>
+
+    //comments dialog box
+    <string name="comments_title">Comments</string>
+    <string name="save_comments">Submit Comments</string>
+    <string name="cancel_comments">Discard</string>
+</resources>
